@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: grey;
+        }
+        .wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 350px;
+        }
+        button {
+            width: 70px;
+            height: 30px;
+            margin-left: 20px;
+            border-color: black;
+        }
+        #red,#yellow,#green,#reset {
+            border-radius: 7px;
+            background-color: greenyellow;
+        }
+        #reset:hover {
+            background-color: aquamarine;
+            transition: 0.3s;
+            font-size: 20px;
+        }
+        #red:hover {
+            background-color: aquamarine;
+            transition: 0.3s;
+            font-size: 20px;
+        }
+        #yellow:hover {
+            background-color: aquamarine;
+            transition: 0.3s;
+            font-size: 20px;
+        }
+        #green:hover {
+            background-color: aquamarine;
+            transition: 0.3s;
+            font-size: 20px;
+        }
+    </style>
+    <div class="wrap">
+        <button id="red">red</button>
+        <button id="yellow">yellow</button>
+        <button id="green">green</button>
+        <button id="reset">reset</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
